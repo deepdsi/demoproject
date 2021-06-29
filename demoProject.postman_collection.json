@@ -1,0 +1,107 @@
+{
+	"variables": [],
+	"info": {
+		"name": "demoProject",
+		"_postman_id": "07a383f1-4e5d-e6f9-eae2-92bee1f5b304",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3005/api/users/signup",
+			"request": {
+				"url": "http://localhost:3005/api/users/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\":\"desaideep006@gmail.com\",\n\t\"password\":\"123\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3005/api/users/login",
+			"request": {
+				"url": "http://localhost:3005/api/users/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\":\"desaideep006@gmail.com\",\n\t\"password\":\"123\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3005/api/users/me",
+			"request": {
+				"url": "http://localhost:3005/api/users/me",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "auth",
+						"value": "U2FsdGVkX19yl4HBm81c9Eh4G3vuj3Rr/pvH9TIWOzo1BmStwgk1PdL7/ssgou/41K61EsW9WhQSVFSMJR27uxD2ZendCqyZo0+gaxMr1TeJD0q+1i4FFLZuyZXieoVoc8zvAmyn96ZoXUklwUmVAtpHONpbOci9iMEl3N9z+Pgf/wY+OaCOAPxqZ4FAxComYIOtC3TcCAu4xk+RYAN8VOFs5Jq4ce6BOAN8TZfnMICzAIJUwdV4duS7vtVn7/zUB3+4BMpmmOOn74uNCR6Wal99QFBGsvx534l9rQTqj9RxJRLcjKVC0GnhvhaDiTAV",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\":\"desaideep006@gmail.com\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3005/api/random-joke",
+			"request": {
+				"url": "http://localhost:3005/api/random-joke",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3005/api/users/logout",
+			"request": {
+				"url": "http://localhost:3005/api/users/logout",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\":\"desaideep006@gmail.com\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
