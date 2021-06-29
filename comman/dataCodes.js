@@ -3,10 +3,6 @@ module.exports = {
       Message: "OK",
       IsError: false,
     },
-    400: {
-      Message: "Bad Request",
-      IsError: true,
-    },
   
     server: {
       internalError: {
