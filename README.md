@@ -10,3 +10,6 @@ node server.js
 
 # server port
 3005 mention in .env file
+
+# postman version
+5.5.5
